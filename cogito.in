@@ -1,0 +1,14 @@
+set(binary_resolution).
+set(print_gen).
+
+% knowledge base (sentences assumed to be true)
+formulas(assumptions).
+  D.
+  D -> C.
+  C -> S.
+end_of_list.
+
+% what the prover must demonstrate
+formulas(goals).
+  S.
+end_of_list.

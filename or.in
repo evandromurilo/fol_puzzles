@@ -1,0 +1,6 @@
+assign(max_models,-1). % find all models
+assign(domain_size,2). % 0 and 1
+
+formulas(assumptions).
+  popcorn | candy.
+end_of_list.
